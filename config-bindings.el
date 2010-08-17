@@ -124,6 +124,10 @@
 (global-set-key (kbd "M-<f1>") 'erc-start)
 
 
+(define-key global-map (kbd "<kp-delete>") 'delete-forward-char)
+;;(define-key global-map [\d] 'delete-forward-char)
+
+
 (provide 'config-bindings)
 ;;; config-bindings.el ends here
 
