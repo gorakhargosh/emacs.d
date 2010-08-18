@@ -7,6 +7,11 @@
 
 (require 'python)
 (setq auto-mode-alist (cons '("\\.py$" . python-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\wscript$" . python-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\wscript_build$" . python-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\SConscript$" . python-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\SConstruct$" . python-mode) auto-mode-alist))
+
 (autoload 'python-mode "python-mode" "Python editing mode." t)
 (setq interpreter-mode-alist
       (cons '("python" . python-mode)
