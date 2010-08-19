@@ -124,7 +124,9 @@
 (global-set-key (kbd "M-<f1>") 'erc-start)
 
 
-(define-key global-map (kbd "<kp-delete>") 'delete-forward-char)
+(global-set-key (kbd "<kp-delete>") 'delete-forward-char)
+(global-set-key (kbd "C-<kp-delete>") 'kill-word)
+;;(define-key global-map (kbd "<kp-delete>") 'delete-forward-char)
 ;;(define-key global-map [\d] 'delete-forward-char)
 
 
