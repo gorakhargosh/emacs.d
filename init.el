@@ -38,6 +38,9 @@
 (require 'config-haskell-mode)
 
 
+(require 'pastebin)
+
+
 ;; ***************************************************************************
 ;; Custom hooks for the window frame
 ;; ---------------------------------
