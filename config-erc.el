@@ -1,6 +1,6 @@
 
 (setq erc-autojoin-channels-alist
-      '(("freenode.net" "#emacs" "##linux-india" "##c")
+      '(("freenode.net" "#emacs" "#node.js")
         ("irc.mozilla.org" "#firefox")))
 
 ;; Servers you want to connect to.
@@ -10,10 +10,9 @@
 (defun erc-start ()
   "Connect to IRC."
   (interactive)
-  (erc :server "irc.freenode.net" :port 6667 :nick "yournick" :password "something")
+  (erc :server "irc.freenode.net" :port 6667 :nick "gorakhargosh")
   )
 
 ;; Bindings are defined in config-bindings.el
 
 (provide 'config-erc)
-

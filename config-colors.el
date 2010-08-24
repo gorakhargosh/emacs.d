@@ -28,7 +28,7 @@
 (add-hook 'after-make-window-system-frame-hooks
           ;; Light
           ;;'color-theme-emacs-nw
-          'color-theme-github
+          ;;'color-theme-github
 
           ;; Dark
           ;;'color-theme-tango
@@ -38,7 +38,7 @@
           ;;'color-theme-blackboard
           ;;'color-theme-twilight
           ;;'color-theme-railscasts
-          ;;'color-theme-ir-black
+          'color-theme-ir-black
           )
 ;;(add-hook 'after-make-console-frame-hooks
 ;;          ;;'color-theme-tty-dark
