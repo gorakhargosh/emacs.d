@@ -38,12 +38,11 @@
 (require 'config-go-mode)
 (require 'config-coffeescript)
 (require 'config-haskell-mode)
+(require 'config-erlang-mode)
 
-(require 'erlang-start)
 (require 'pastebin)
 
-(require 'distel)
-(distel-setup)
+
 
 
 ;; ***************************************************************************
