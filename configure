@@ -1,4 +1,7 @@
 #!/bin/sh
 
-cd lib/zencoding && make && cd -
+TOP_DIR=`pwd`
+
+cd lib/zencoding && make && cd $TOP_DIR
+cd lib/distel && make && cd $TOP_DIR
 

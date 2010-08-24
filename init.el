@@ -8,6 +8,8 @@
        (normal-top-level-add-subdirs-to-load-path))
 (progn (cd (concat config-dir "/lib"))
        (normal-top-level-add-subdirs-to-load-path))
+(progn (cd (concat config-dir "/lib/distel/elisp"))
+       (normal-top-level-add-subdirs-to-load-path))
 (progn (cd config-dir)
        (normal-top-level-add-subdirs-to-load-path))
 
@@ -37,8 +39,11 @@
 (require 'config-coffeescript)
 (require 'config-haskell-mode)
 
-
+(require 'erlang-start)
 (require 'pastebin)
+
+(require 'distel)
+(distel-setup)
 
 
 ;; ***************************************************************************
