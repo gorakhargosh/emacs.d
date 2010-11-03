@@ -4,4 +4,4 @@ TOP_DIR=`pwd`
 
 cd lib/zencoding && make && cd $TOP_DIR
 cd lib/distel && make && cd $TOP_DIR
-
+cd lib/auto-complete/ && make install DIR=$TOP_DIR && cd $TOP_DIR

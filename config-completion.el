@@ -11,6 +11,7 @@
 ;; Auto-complete
 (require 'auto-complete)
 (require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories (concat config-dir "ac-dict"))
 (ac-config-default)
 
 (require 'ac-anything)
@@ -128,6 +129,12 @@
                                    ac-source-files-in-current-dir
                                    ac-source-filename
                                    ac-source-css-keywords))))
+
+(add-hook 'c-mode-hook
+          (lambda() (add-to-list 'ac-sources
+                                 '(ac-source-symbols
+                                   ac-source-files-in-current-dir
+                                   ac-source-filename))))
 
 (provide 'config-completion)
 ;;; config-completion.el ends here

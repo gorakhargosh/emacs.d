@@ -11,3 +11,14 @@ Desktop.ini
 Thumbs.db
 
 ac-comphist.dat
+ac-dict/
+auto-complete-config.el
+auto-complete.el
+lib/distel/doc/distel.info
+lib/distel/ebin/distel.beam
+lib/distel/ebin/distel_ie.beam
+lib/distel/ebin/fdoc.beam
+lib/distel/ebin/otp_doc.beam
+popup.el
+fuzzy.el
+abbrev_defs

@@ -24,7 +24,7 @@
     (menu-bar-mode -1))
   (blink-cursor-mode -1))
 
-;;(require 'config-colors)
+(require 'config-colors)
 (require 'config-defuns)
 (require 'config-completion)
 (require 'config-preferences)
@@ -41,7 +41,6 @@
 (require 'config-erlang-mode)
 
 (require 'pastebin)
-
 
 
 
