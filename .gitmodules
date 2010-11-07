@@ -22,6 +22,3 @@
 [submodule "lib/zencoding"]
 	path = lib/zencoding
 	url = git://github.com/chrisdone/zencoding.git
-[submodule "lib/color-theme/themes/color-theme-eclipse"]
-	path = lib/color-theme/themes/color-theme-eclipse
-	url = git://github.com/takaken/color-theme-eclipse.git
