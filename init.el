@@ -40,8 +40,8 @@
 (require 'config-haskell-mode)
 (require 'config-erlang-mode)
 
-(require 'pastebin)
 
+(require 'pastebin)
 
 ;; ***************************************************************************
 ;; Custom hooks for the window frame

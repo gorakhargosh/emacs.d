@@ -10,6 +10,7 @@
 (require 'zenburn)
 (require 'color-theme-subdued)
 (require 'color-theme-less)
+(require 'color-theme-eclipse)
 
 (load-library "color-theme-github")
 (load-library "color-theme-twilight")
@@ -29,6 +30,7 @@
           ;; Light
           ;;'color-theme-emacs-nw
           ;;'color-theme-github
+          'color-theme-eclipse
 
           ;; Dark
           ;;'color-theme-tango
@@ -38,7 +40,7 @@
           ;;'color-theme-blackboard
           ;;'color-theme-twilight
           ;;'color-theme-railscasts
-          'color-theme-ir-black
+          ;;'color-theme-ir-black
           )
 ;;(add-hook 'after-make-console-frame-hooks
 ;;          ;;'color-theme-tty-dark
