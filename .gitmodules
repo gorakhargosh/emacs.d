@@ -25,3 +25,6 @@
 [submodule "themes/color-theme-eclipse"]
 	path = themes/color-theme-eclipse
 	url = git://github.com/takaken/color-theme-eclipse.git
+[submodule "themes/color-themes-khargosh"]
+	path = themes/color-themes-khargosh
+	url = git://github.com/gorakhargosh/color-themes-khargosh.git
