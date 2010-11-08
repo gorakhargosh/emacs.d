@@ -10,7 +10,9 @@
 (require 'zenburn)
 (require 'color-theme-subdued)
 (require 'color-theme-less)
-(require 'color-theme-eclipse)
+;;(require 'color-theme-eclipse)
+(require 'color-theme-icu)
+(require 'color-theme-dpaste)
 
 (load-library "color-theme-github")
 (load-library "color-theme-twilight")
@@ -30,7 +32,9 @@
           ;; Light
           ;;'color-theme-emacs-nw
           ;;'color-theme-github
-          'color-theme-eclipse
+          ;;'color-theme-eclipse
+          ;;'color-theme-icu
+          'color-theme-dpaste
 
           ;; Dark
           ;;'color-theme-tango

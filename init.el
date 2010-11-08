@@ -24,8 +24,9 @@
     (menu-bar-mode -1))
   (blink-cursor-mode -1))
 
-(require 'config-colors)
+
 (require 'config-defuns)
+(require 'config-colors)
 (require 'config-completion)
 (require 'config-preferences)
 (require 'config-erc)
@@ -56,6 +57,7 @@
 
 (defvar after-make-console-frame-hooks '()
   "Hooks to run after creating a new TTY frame")
+
 
 (defvar after-make-window-system-frame-hooks '()
   "Hooks to run after creating a new window-system frame")
