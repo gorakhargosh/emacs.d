@@ -12,6 +12,10 @@ After cloning this repository and the submodules, please
 issue these commands, assuming ~/.emacs.d is where you cloned the main
 repository:
 
+Install noweb
+Ubuntu: sudo aptitude install noweb erlang
+Mac OS X: brew install noweb erlang
+
 
 cd ~/.emacs.d
 ./configure
